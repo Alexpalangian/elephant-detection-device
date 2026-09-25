@@ -76,7 +76,7 @@ void loop() {
     unsigned long elapsedMicros = micros() - startMicros;
     sampleRate = (SAMPLES / (double)elapsedMicros) * 1e6;
     double mean = 0;
-    // There is a constant value that is being added to all the values, and then we find the mean, and since the readings are +ve and -ve
+    // There is a constant value that is being added to all the values, and then we find the mean, and since the readings are positive values and negative values
     // they cancel each other, and all we have is the constant value multiplied by the number of values. 
     for (int i = 0; i < SAMPLES; i++) {
         mean += vReal[i];
