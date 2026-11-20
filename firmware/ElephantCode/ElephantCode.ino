@@ -8,7 +8,7 @@
 /*Select ESP32 Dev Module for the board and COM11 for the port*/
 
 //NTP
-const char* NTP_SERVER = "pool.ntp.org";
+c
 const long  GMT_OFFSET = -25200; // Arizona UTC-7
 //FOR KENYA
 //const long  GMT_OFFSET = 10800; // Kenya UTC+3
